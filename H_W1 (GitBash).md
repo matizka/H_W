@@ -3,7 +3,7 @@
 Linux terminal (GitBash) commands
 
 1) Посмотреть где я
-+`pwd`
++ `pwd`
 2) Создать папку 
 +`mkdir folder`
 3) Зайти в папку
