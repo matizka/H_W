@@ -116,7 +116,7 @@ cp folder1/t1.txt folder2
 в) ["alex","20"]
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
-
+```
 #!/bin/bash
 cd folder
 mkdir folder1 folder2 folder3
@@ -126,6 +126,7 @@ mkdir folder4 folder5 folder6
 ls -la
 mv t1.txt folder4
 mv j1.json folder5
+```
 
 + chmod +x ./script
 + ./script
