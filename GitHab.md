@@ -47,11 +47,11 @@ JSON
 + vim preferences.json
 ```json
 {
-	"film":"office romance",
-	"serial":"friends",
-	"food":"rolls",
-	"season":"summer",
-	"country":"USA"
+	"film" : "office romance",
+	"serial" : "friends",
+	"food" : "rolls",
+	"season" : "summer",
+	"country" : "USA"
 }
 ```
 
@@ -59,8 +59,8 @@ JSON
 + touch skills.json
 ```json
 {
-	"hard_skills":"gitbash",
-	"soft_skills":"teamwork"
+	"hard_skills" : "gitbash",
+	"soft_skills" : "teamwork"
 }
 ```
 
@@ -82,13 +82,13 @@ JSON
 ```json
 {
 "ID": 1
-"Title": "CART - Unable to add new item to a cart",
-"Environment": "windows 10, Opera Browser",
-"Steps to reproduce":"Go to product page, Press to 'Add to cart button, Go to cart"
-"Priority":"High",
-"Severity":"Critical",
-"Expected Result":"The cart containes 1 item",
-"Actual Result":"The cart containes 0 items"
+"Title" : "CART - Unable to add new item to a cart",
+"Environment" : "windows 10, Opera Browser",
+"Steps to reproduce" : "Go to product page, Press to 'Add to cart button, Go to cart"
+"Priority" : "High",
+"Severity" : "Critical",
+"Expected Result" : "The cart containes 1 item",
+"Actual Result" : "The cart containes 0 items"
 }
 ```
 
@@ -129,7 +129,7 @@ XML
 ```xml
 <xml>
         <name>Victoriya</name>
-        <age>30</age>
+        <age>39</age>
         <pets>0</pets>
         <Salary>1000$</Salary>
 </xml>
