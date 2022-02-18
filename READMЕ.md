@@ -116,6 +116,8 @@ cp folder1/t1.txt folder2
 в) ["alex","20"]
 
 2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13
++ touch script.sh
+
 ```
 #!/bin/bash
 cd folder
