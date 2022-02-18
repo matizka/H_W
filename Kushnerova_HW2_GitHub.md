@@ -3,7 +3,7 @@ GIT Homework 1
 JSON
 
  4. Создать внешний репозиторий c названием JSON.
-+ на сайте https://github.com/new 
++ Заходим на сайт https://github.com/new 
 + Create a new repository
 + Repository name "JSON"
 
