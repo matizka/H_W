@@ -3,13 +3,13 @@
 Linux terminal (GitBash) commands
 
 1) Посмотреть где я
- `pwd`
+ + pwd
  
 2) Создать папку 
-`mkdir folder`
++ mkdir folder
 
 3) Зайти в папку
-`cd folder`
++ cd folder
 
 4) Создать 3 папки 
 + mkdir folder1 folder2 folder3
