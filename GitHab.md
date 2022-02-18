@@ -45,20 +45,24 @@ JSON
 
  13. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON.
 + vim preferences.json
-+ {
+```json
+{
 	"film":"office romance",
 	"serial":"friends",
 	"food":"rolls",
 	"season":"summer",
 	"country":"USA"
 }
+```
 
  14. Создать файл sklls.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON
 + touch skills.json
+```json
 {
 	"hard_skills":"gitbash",
 	"soft_skills":"teamwork"
 }
+```
 
  15. Отправить сразу 2 файла на внешний репозиторий.
 + git status
@@ -75,7 +79,8 @@ JSON
 
  18. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON.
 + edit this file
-+ {
+```json
+{
 "ID": 1
 "Title": "CART - Unable to add new item to a cart",
 "Environment": "windows 10, Opera Browser",
@@ -85,6 +90,7 @@ JSON
 "Expected Result":"The cart containes 1 item",
 "Actual Result":"The cart containes 0 items"
 }
+```
 
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 + Commit changes 
@@ -120,12 +126,14 @@ XML
 
  27. Отредактировать содержание файла “new.xml” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате XML.
 + vim new.xml
-+ <xml>
+```xml
+<xml>
         <name>Victoriya</name>
         <age>30</age>
         <pets>0</pets>
         <Salary>1000$</Salary>
 </xml>
+```
 
  28. Отправить изменения на внешний репозиторий.
 + git status
@@ -137,22 +145,25 @@ XML
 
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
 + vim preferences.xml
-+ <xml>
+```xml
+<xml>
         <film>office romance</film>
         <serial>friends</serial>
         <food>rolls</food>
         <season>summer</season>
         <country>USA</country>
 </xml>
+```
 
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML
 + touch skills.xml
 + vim skills.xml
-+ <xml>
+```xml
+<xml>
         <hard_skills>gitbash</hard_skills>
         <soft_skills>teamwork</soft_skills>
 </xml>
-
+```
  32. Сделать коммит в одну строку.
 + git add . && git commit -m "add preferences.xml, skills.xml"
 
@@ -168,7 +179,8 @@ XML
 
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
 + edit this file
-+ <xml>
+```xml
+<xml>
   <ID>1</ID>
   <Title>CART - Unable to add new item to a cart</Title>
   <Environment>Windows 10, Opera Browser</Environment>
@@ -178,6 +190,7 @@ XML
   <Expected_Result>The cart containes 1 item</Expected_Result>
   <Actual_Result>The cart containes 0 items</Actual_Result>
 </xml>
+```
 
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 + Commit changes
