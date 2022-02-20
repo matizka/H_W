@@ -66,7 +66,7 @@ Mobile testing
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 
-+ на сайте https://github.com выбираем репозиторий CheckLists 
++ на сайте https://github.com выбираем в нужном репозитории ветку CheckLists 
 + на вкладке Pull requests нажать Compare&pull request -> create pull request
 
 10. Синхронизировать Внешнюю и Локальную ветки Main
