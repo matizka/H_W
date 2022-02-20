@@ -30,7 +30,7 @@ Mobile testing
 + touch bag.txt
 + vim bag.txt
 
--ID (номер)  
+>ID (номер)  
 -Summary (заголовок)    
 -Description (описание)  
 -Actual/expected result (фактический/ожидаемый результат)  
@@ -56,7 +56,7 @@ Mobile testing
 + touch checklist.txt
 + vim checklist.txt
 
--ID («Номер»)  
+>-ID («Номер»)  
 -Tester Actions («Проверка», «Действия тестировщика»)  
 -Actual Result («Результат»)  
 -Comment («Комментарий»)  
