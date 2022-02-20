@@ -6,14 +6,19 @@ Postman
 
 Jmeter
 + git branch Jmeter
+
 CheckLists
 + git branch CheckLists
+
 Bag Reports
 + git branch Bag_Reports
+
 SQL
 + git branch  SQL
+
 Charles
 + git branch Charles
+
 Mobile testing
 + git branch Mobile_testing
 
@@ -25,17 +30,17 @@ Mobile testing
 + touch bag.txt
 + vim bag.txt
 
-ID- номер  
-Summary (заголовок)    
-Description (описание)  
-Actual/expected result (фактический/ожидаемый результат)  
-Attachments (вложения)  
-Priority (приоритет)  
-Severity (серьёзность)  
-Status (статус)   
+-ID (номер)  
+-Summary (заголовок)    
+-Description (описание)  
+-Actual/expected result (фактический/ожидаемый результат)  
+-Attachments (вложения)  
+-Priority (приоритет)  
+-Severity (серьёзность)  
+-Status (статус)   
 
 4. Запушить структуру багрепорта на внешний репозиторий
-+ git add bag.txt
++ git add bag.txt 
 + git commit -m "add text"
 + git push
 
