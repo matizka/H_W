@@ -222,10 +222,11 @@ TXT
 
  7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
 + vim new.txt
-+ Имя - Виктория
-Возраст - 39
-Количество домашних животных - 0
-Будущая желаемая зарплата - 1000 $
+
+Имя - Виктория  
+Возраст - 39  
+Количество домашних животных - 0  
+Будущая желаемая зарплата - 1000 $  
 
  8. Отправить изменения на внешний репозиторий.
 + git status
@@ -237,16 +238,18 @@ TXT
 
  10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT.
 + vim preferences.txt
-+ Любимый фильм - Служебный роман
-Любимый сериал - Друзья
-Любимая еда - Роллы
-Любимое время года - лето
-Страна, которую хотели бы посетить - Америка
+
+Любимый фильм - Служебный роман  
+Любимый сериал - Друзья  
+Любимая еда - Роллы  
+Любимое время года - лето  
+Страна, которую хотели бы посетить - Америка  
 
  11. Создать файл sklls.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT
 + cat > scills.txt
-+ Хард скилы - GitBash
-Софт скилы - работа в комманде
+
+Хард скилы - GitBash  
+Софт скилы - работа в комманде  
 
  12. Сделать коммит в одну строку.
 + git add . && git commit -m "add preferences.txt, scills"
@@ -263,14 +266,15 @@ TXT
 
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
 + edit this file
-+ ID : 1
-Title CART : Unable to add new item to a cart
-Environment : Windows 10, Opera Browser
-Steps to reproduce : Go to product page, Press to 'Add to cart button, Go to cart
-Priority : High
-Severity : Critical
-Expected Result : The cart containes 1 item
-Actual Result : The cart containes 0 items
+
+ID : 1  
+Title CART : Unable to add new item to a cart  
+Environment : Windows 10, Opera Browser  
+Steps to reproduce : Go to product page, Press to 'Add to cart button, Go to cart  
+Priority : High  
+Severity : Critical  
+Expected Result : The cart containes 1 item  
+Actual Result : The cart containes 0 items  
 
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
 + Commit changes
