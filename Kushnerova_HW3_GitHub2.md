@@ -10,8 +10,8 @@ Jmeter
 CheckLists
 + git branch CheckLists
 
-Bag Reports
-+ git branch Bag_Reports
+Bug Reports
++ git branch Bug_Reports
 
 SQL
 + git branch  SQL
@@ -25,9 +25,9 @@ Mobile testing
 2. Запушить все ветки на внешний репозиторий
 + git push -u origin --all
 
-3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
-+ git checkout Bag_Reports - переходим на ветку Bag_Reports
-+ touch bag.txt
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
++ git checkout Bug_Reports - переходим на ветку Bug_Reports
++ touch bug.txt
 + vim bag.txt
 
 >ID (номер)  
