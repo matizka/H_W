@@ -232,19 +232,28 @@ mkdir papka && cat > papka/file.txt
  
  ```
  mv `find -type f -exec grep -l sec '{}' \;` papka
+ или
+ grep -rl "sec" | xargs mv -vt inner_dir_2
  ```
-
+ 
  37. Команда в одну строку. Скопировать в любую одну папку текстовые файлы у которых в содержимом есть слово “sec”
 ```
 cp `find -type f -exec grep -l sec '{}' \;` inner_dir_1
+или
+grep -rl "sec" | xargs cp -vt inner_dir_1
 ```
+
  38. Команда в одну строку. Найти все строки c “sec” во всех текстовых файлах, скопировать и вставить эти строки в один новый созданный текстовый файл.
 ```
 cat `find -type f -exec grep -l sec '{}' \;` > vika.txt
+или
+grep -rh "sec" >> vika.txt
 ```
  39. Команда в одну строку. Удалить текстовые файлы у которых в содержимом есть слово “sec”
 ```
 rm `find -type f -exec grep -l sec '{}' \;` 
+или
+grep -rl "sec" | xargs rm 
 ```
  40. Просто вывести в терминал строку “Good job!!”
 ```
