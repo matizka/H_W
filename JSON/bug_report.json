@@ -1,0 +1,10 @@
+{
+"ID": 1
+"Title": "CART - Unable to add new item to a cart",
+"Environment": "windows 10, Opera Browser",
+"Steps to reproduce":"Go to product page, Press to 'Add to cart button, Go to cart"
+"Priority":"High",
+"Severity":"Critical",
+"Expected Result":"The cart containes 1 item",
+"Actual Result":"The cart containes 0 items"
+}

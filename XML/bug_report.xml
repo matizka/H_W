@@ -1,0 +1,10 @@
+<xml>
+  <ID>1</ID>
+  <Title>CART - Unable to add new item to a cart</Title>
+  <Environment>Windows 10, Opera Browser</Environment>
+  <Steps>Go to product page, Press to 'Add to cart button, Go to cart</Steps>
+  <Priority>High</Priority>
+  <Severity>Critical</Severity>
+  <Expected_Result>The cart containes 1 item</Expected_Result>
+  <Actual_Result>The cart containes 0 items</Actual_Result>
+</xml>
